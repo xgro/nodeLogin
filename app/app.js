@@ -13,6 +13,7 @@ const home = require("./src/routes/home")
 app.set("views","./src/views");
 app.set("view engine","ejs");
 
+app.use(express.static(`${__dirname}/src/public`)) // 현재 app.js 경로를 __dirname으로 정적경로로 추가
 
 app.use("/", home); // use -> middleware 등록해주는 매서드.
 
