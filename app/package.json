@@ -13,7 +13,7 @@
     "nodemon": "^2.0.15"
   },
   "scripts": {
-    "start": "nodemon ./bin/www.js",
+    "start": "nodemon -L ./bin/www.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
