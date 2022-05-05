@@ -2,8 +2,8 @@
 
 class UserStorage{
     static #users = {
-        id : ["xgro", "나개발", "김코딩"],
-        psword : ["1234","1234","123456"],
+        id : ["admin", "나개발", "김코딩"],
+        passwd : ["1234","1234","123456"],
         name : ["차니","호영","지은"],
     };
 
