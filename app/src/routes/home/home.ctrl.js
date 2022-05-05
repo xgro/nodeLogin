@@ -12,6 +12,10 @@ const output = {
         // function
         res.render("home/login");
     },
+    register : (req, res) => {
+        // function
+        res.render("home/register");
+    },
 };
 
 
