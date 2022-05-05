@@ -11,9 +11,6 @@ registerBtn.addEventListener("click", register);
 
 function register() {
     if (!id.value) return alert("아이디를 입력해주세요.");
-
-    console.log(passwd,confirmPasswd);
-
     if (passwd.value !== confirmPasswd.value) return alert("비밀번호가 일치하지 않습니다. ");
     
     const req = {
